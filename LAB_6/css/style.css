@@ -1,0 +1,388 @@
+.head
+{
+    display: flex;
+    width: 1680px;
+    margin: 36px auto auto 113px;
+}
+
+.head__text_alocate
+{
+    width: 203px;
+    letter-spacing: -0.045em;
+    margin: 0px;  
+    font: normal 700 30.84px /1.23 Montserrat;
+}
+
+.highlite
+{
+    color: #EE58B6;
+}
+
+.navigation
+{
+    display: flex;
+    width: 469px;
+    margin: 10px 99px auto auto;
+}
+
+.navigation__text
+{
+    font: normal 500 16px /20px Montserrat;
+    flex: none;
+    margin: 0px 87px 0px 0px;
+}
+
+.navigation__button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14.36px 33.425px;
+    border: 0px;
+
+    width: 248px;
+    height: 55px;
+    margin: -9px 0px 0px 0px;
+    background: #05090C;
+    border-radius: 4.59px;
+
+    font: normal 600 16px /16px Montserrat;
+    color: white;
+}
+
+.inviting
+{
+    display: flex;
+    width: 1580px;
+    margin: 46px 0px 0px 170px;
+}
+
+.inviting__text-block
+{
+    width: 745px;
+    margin: 177px 0px 0px 0px; 
+}
+
+.inviting__text-block_alocate
+{
+    font: normal 600 100px /1.23 Montserrat;
+    margin: 0px;
+}
+
+.inviting__text-block_information
+{
+    width: 545px;
+    margin: 21px 0px 0px 0px;
+    font: normal 400 26px /120% 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.inviting__button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 332px;
+    margin: 45px 0px 0px 0px;
+    padding: 19.36px 34.425px;
+
+    background: #05090C;
+    border-radius: 4.59px;
+    border: 0px;
+
+    font: normal 600 16px /16px Montserrat;
+    color: white;
+}
+
+.inviting__done-image
+{
+    margin: 1.71% 0% 0% 1.79%;
+}
+
+.ad-information
+{
+    width: 1920px;
+    height: 398px;
+    margin: 63px 0px 0px -8px;
+    background: #000;
+}
+
+.ad-information__info
+{
+    display: flex;
+    width: 1138px;
+    margin: 64px 0px 0px 399px;
+}
+
+.ad-information__info_for-whom
+{
+    width: 285px;
+    left: 1px;
+    top: 0px;
+    margin: 51px 0px 0px -16px;
+}
+
+.ad__img_clock
+{
+    width: 50px;
+    margin: 65px 0px 0px 127px;
+}
+
+.info__for-whom_text
+{
+    width: 303px;
+    margin: 21px 0px 0px 0px;
+
+    font: normal 400 22px /1.2 'Roboto Condensed';
+    color: white;
+    text-align: center;
+}
+
+.ad-information__info_method
+{
+    width: 337px;
+    margin: 0px 0px 0px 0px;
+}
+
+.ad__img_notebook
+{
+    width: 61px;
+    margin: 110px 0px 0px 260px;
+}
+
+.info__method_text
+{
+    width: 337px;
+    margin: 17px 0px 0px 124px;
+    font: normal 400 22px /1.2 'Roboto Condensed';
+    text-align: center;
+    color: white;
+}
+
+.ad-information__info_cours
+{
+    width: 293px;
+    margin: 0px 0px 0px 0px;
+}
+
+.ad__img_target
+{
+    width: 61px;
+    margin: 110px 0px 0px 348px;
+}
+
+.info__cours_text
+{
+    width: 336.95px;
+    margin: 18px 0px 0px 210px;
+    font: normal 400 22px /1.2 'Roboto Condensed';
+    text-align: center;
+    color: white;
+}
+
+.creative
+{
+    display: flex;
+    width: 574px;
+    margin: 0px 0px 0px 365px;
+}
+
+.creative__finances
+{
+    margin: 12.5% 0% 8.46% -1.34%;
+}
+
+.text__alocate-creative
+{
+    width: 376px;
+    margin: 298.03px 0px 0px 52px;
+    font: normal 500 48px /1.26 Montserrat;
+}
+
+.text__main-text-creative
+{
+    width: 574px;
+    margin: 25px 0px 0px 52px;
+    color: rgba(0, 0, 0, 0.7);
+    font: normal 400 18px /1.35 'Roboto Condensed';
+}
+
+.when
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1135px;
+    margin: 0px 0px 0px 393px;
+}
+
+.when__omg
+{
+    width: 504px;
+    margin: -4px 8px 0px 57px;
+}
+
+.text__alocate-when
+{
+    width: 386px;
+    margin: 281px 0px 0px 0px;
+
+    font: normal 500 48px /1.26 Montserrat;
+}
+
+.text__main-text-when
+{
+    width: 574px;
+    margin: 25px 0px 0px 0px;
+
+    font: normal 400 18px /1.35 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.adventage
+{
+    width: 1135px;
+    height: 530px;
+    margin: 98px 0px 0px 385px;
+}
+
+.adventage__text
+{
+    width: 553px;
+    text-align: center;
+    margin: 0px 0px 0px 290px;
+    font: normal 500 48px /59px Montserrat;
+}
+
+.levels
+{
+    width: 1135px;
+    height: 411px;
+    margin: 60px 0px 0px 0px;
+}
+
+.levels__first
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 1134px;
+    height: 190px;
+    margin: 0.23px 0px 0px 0.63px;
+}
+
+.levels__second
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 1134px;
+    height: 190px;
+    margin: 30px 0px 0px 0.63px;
+}
+
+.element
+{
+    width: 358px;
+    height: 190px;
+    background: #000000;
+    border-radius: 7.35723px;
+}
+
+.text
+{
+    font: normal 400 18px /21px 'Roboto Condensed';
+    color: white;
+}
+
+.one__img
+{
+    height: 49px;
+    margin: 31.36px 0px 0px 38.35px;
+}
+
+.one__text
+{
+    width: 269.77px;
+    margin: 17px 0px 0px 39.25px;
+}
+
+.two__img
+{
+    height: 49.5px;
+    margin: 31.36px 0px 0px 39.15px;
+}
+
+.two__text
+{
+    width: 269.77px;
+    margin: 17px 0px 0px 39.74px;
+}
+
+.three__img
+{
+    width: 46px;
+    margin: 31.8px 0px 0px 38.2px;
+}
+
+.three__text
+{
+    width: 239.77px;
+    margin: 17px 0px 0px 39.22px;
+}
+
+.four__img
+{
+    width: 41px;
+    margin: 32.8px 0px 0px 38.35px;
+}
+
+.four__text
+{
+    width: 255.77px;
+    margin: 16px 0px 0px 39.25px;
+}
+
+.five__img
+{
+    width: 51.46px;
+    margin: 32.22px 0px 0px 39.15px;
+}
+
+.five__text
+{
+    width: 210.77px;
+    margin: 16px 0px 0px 39.74px;
+}
+
+.six__img
+{
+    width: 36.5px;
+    margin: 33px 0px 0px 38px;
+}
+
+.six__text
+{
+    width: 286px;
+    margin: 15px 0px 0px 39px;
+}
+
+.finish
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 108px;
+    margin: 288px 0px 0px -8px;
+    background: #000;
+}
+
+.finish__text
+{
+    font: normal 700 30.84px /1.22 Montserrat;
+    letter-spacing: -0.045em;
+    color: white;
+}

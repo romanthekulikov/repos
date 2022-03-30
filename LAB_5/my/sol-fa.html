@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Курс по сольфеджио</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital@1&display=swap" rel="stylesheet" />   
+  </head>
+  <body>
+    <header>
+      <section>
+        <h1 class="head-logo">Sol-Fa</h1>
+        <nav class="navigation">
+          <p class="navigation__text"><a href="#for_whom?" title="Для кого этот курс">Для кого этот курс?</a></p>
+          <p class="navigation__text"><a href="#question-answer" title="Вопрос-Ответ">Вопрос-ответ</a></p>
+          <p class="navigation__allocate"><a href="#sign_up" title="Переход к регистрации">Записаться</a></p>
+        </nav>
+      </section>
+      <section class="inviting">
+        <h2 class="inviting__head">Сольфеджио это не сложно</h2>
+        <p class="inviting__text">С нашим курсом вы забудете про провлемы с музыкальным слухом.</p>
+        <button class="inviting__button" href="#sign_up"  title="Переход к регистрации">Записаться</button>
+      </section>
+      <div>
+        <img class="green-piano" src="images/green_piano.svg" alt="Зеленое фортепиано" />
+      </div>
+    </header>
+    <main>
+      <section class="main-information">
+        <h2 class="main-information__dont-worry">Сольфеджио не только для избранных</h2>
+        <p class="main-information__text">Сольфеджио это — учебная дисциплина, предназначенная 
+           для развития музыкального слуха и музыкальной памяти, 
+           включающая сольфеджирование (сольмизацию), музыкальный 
+           диктант, анализ на слух.</p>
+        <button class="main-information__button">Узнать подробности</button>
+      </section>
+      <div>
+        <img class="music-woman" src="images/music_woman.svg" alt="Девушка с наушниками" />
+      </div>
+      <section class="for-whom" id="for_whom?">
+        <h2 class="for-whom__for-you">Этот курс для тебя</h2>
+        <p class="for-whom__condition">если ты хочешь:</p>
+        <ol class="for-whom__criteria">
+          <li>Улучшить свой музыкальный слух.</li>
+          <li>Научится писать музыку.</li>
+          <li>Понимать музыку.</li>
+         </ol>
+      </section>
+      <section class="positive-traits">
+          <h3 class="positive-traits__sol-fa">Сольфеджио способствует</h3>
+          <p class="positive-traits__traits">Развитию невербального интелекта, улучшению сна. Позволяет услышать себя</p>
+      </section>
+      <section id="question-answer">
+        <h3>Ваш вопрс:</h3>
+        <ol>
+          <li>Сколько нужно заниматься сольфеджио, чтобы улучшить слух?</li>
+          <li>Как долго длится курс?</li>
+          <li>Сколько стоит курс?</li>
+        </ol>
+        <h3>Наш ответ:</h3>
+        <ol>
+          <li>Вы почувствуее изменение уже через 2 недели тренеровок.</li>
+          <li>Наш курс длится четыре месяца, а после него вы можете перейти на более сложный курс.</li>
+          <li>Все подробности вы сможете получить по почте после регистрации</li>
+        </ol>
+      </section>
+      <section id="sign_up">
+        <h2 class="head">Регистрация</h2>
+        <form method="get" action="http://localhost:4000/EmailSender.php">
+          <span>Ваш email:</span><input type="text" name="email" placeholder="Электронная почта" required><br>
+          <span>Ваше имя:</span><input type="text" name="name" placeholder="Ваше имя" required><br>
+          <button>Зарегистрироваться</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <h4>Контакты:</h4>
+        <ul>
+          <li>VK</li>
+          <li>INSTAGRAM</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

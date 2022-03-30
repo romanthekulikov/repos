@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Курс сольфеджио</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h1 class="head">Сольфеджио это <span class="highliter">не</span> сложно</h1>
+      <nav>
+        <p><a class="link" href="#for_whom?" title="Для кого этот курс?">Для кого этот курс?</a></p>
+        <p><a class="link" href="#question_answer" title="Рубрика вопрос-ответ">Вопрс-ответ</a></p>
+        <p><a class="link" href="#sign_up" title="Зарегестрироваться на курс">Регистрация</a></p>
+      </nav>
+    </header>
+    <main>
+      <section>
+      <h2 class="head">Сольфеджио <span class="highliter">не только</span> для избранных</h2>
+      <p>Сольфеджио это -- учебная дисциплина, предназначенная 
+        для развития музыкального слуха и музыкальной памяти, 
+        включающая сольфеджирование (сольмизацию), музыкальный 
+        диктант, анализ на слух.</p>
+      <div class="course_enrollment"><a class="link" href="#sign_up" title="Зарегестрироваться на курс">Запись на курс</a></div>
+      </section>
+      
+      <section>
+        <h2 class="head" id="for_whom?">Этот курс для <span class="highliter">тебя</span>,</h2>
+        <div class="small">
+          <h3>если ты хочешь:</h3>
+          <ul>
+            <li>Улучшить свой музыкальный слух</li>
+            <li>Научится писать музыку</li>
+            <li>Понимать музыку</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="black-block-content">
+        <div class="black-block-content__in-block">
+          <h3>Сольфеджио способствует</h3>
+          <p>Развитию невербального интелекта, улучшению сна. Позволяет услышать себя</p>
+          <p><a class="link" href="#sign_up" title="Зарегестрироваться на курс">Запись на курс</a></p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="head" id="question_answer">Вопрс-ответ</h2>
+        <ol>
+          <li>
+            <span>Сколько нужно заниматься сольфеджио, чтобы улучшить слух?</span>
+            <ul>
+              <li>Вы почувствуее изменение уже через 2 недели тренеровок</li>
+            </ul>
+          </li>
+          <li>
+            <span>Как долго длится курс?</span>
+            <ul>
+              <li>Наш курс длится четыре месяца, а после него вы можете перейти на более сложный курс</li>
+            </ul>
+          </li>
+          <li>
+            <span>Сколько стоит курс?</span>
+            <ul>
+              <li>Все подробности вы сможете получить по почте после <a class="link" href="#sign_up" title="Зарегестрироваться на курс" class="highliter">регистрации</a></li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <h2 class="head" id="sign_up">Регистрация</h2>
+        <form method="get" action="http://localhost:4000/EmailSender.php">
+          <input type="text" name="email" placeholder="Электронная почта" required><br>
+          <input type="text" name="password" placeholder="Пароль" required><br>
+          <input type="text" name="name" placeholder="Ваше имя" required><br>
+          <button>Зарегистрироваться</button>
+        </form>
+      </section>
+    </main>
+  </body>
+
+</html>

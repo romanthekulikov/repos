@@ -1,0 +1,332 @@
+.head__text_alocate
+{
+    width: 203px;
+    letter-spacing: -0.045em;
+    font: normal 700 30.84px /1.23 Montserrat;
+}
+
+.highlite
+{
+    color: #EE58B6;
+}
+
+.navigation
+{
+    width: 469px;
+}
+
+.navigation__text
+{
+    font: normal 500 16px /20px Montserrat;
+}
+
+.navigation__button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14.36px 33.425px;
+    border: 0px;
+
+    width: 248px;
+    height: 55px;
+    background: #05090C;
+    border-radius: 4.59px;
+
+    font: normal 600 16px /16px Montserrat;
+    color: white;
+}
+
+.inviting__done-image
+{
+    width: 763px;
+}
+
+.inviting
+{
+    width: 1580px;
+}
+
+.inviting__text-block
+{
+    width: 745px;
+}
+
+.inviting__text-block_alocate
+{
+    font: normal 600 100px /1.23 Montserrat;
+}
+
+.inviting__text-block_information
+{
+    width: 545px;
+    font: normal 400 26px /120% 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.inviting__button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 332px;
+    padding: 19.36px 34.425px;
+
+    background: #05090C;
+    border-radius: 4.59px;
+    border: 0px;
+
+    font: normal 600 16px /16px Montserrat;
+    color: white;
+}
+
+
+
+.ad-information
+{
+    width: 1920px;
+    height: 398px;
+    background: #000;
+}
+
+.ad-information__info
+{
+    width: 1138px;
+}
+
+.ad-information__info_for-whom
+{
+    width: 285px;
+}
+
+.ad__img_clock
+{
+    width: 50px;
+}
+
+.info__for-whom_text
+{
+    width: 303px;
+
+    font: normal 400 22px /1.2 'Roboto Condensed';
+    color: white;
+    text-align: center;
+}
+
+.ad-information__info_method
+{
+    width: 337px;
+    margin: 0px 0px 0px 0px;
+}
+
+.ad__img_notebook
+{
+    width: 61px;
+}
+
+.info__method_text
+{
+    width: 337px;
+    font: normal 400 22px /1.2 'Roboto Condensed';
+    text-align: center;
+    color: white;
+}
+
+.ad-information__info_cours
+{
+    width: 293px;
+}
+
+.ad__img_target
+{
+    width: 61px;
+}
+
+.info__cours_text
+{
+    width: 336.95px;
+    font: normal 400 22px /1.2 'Roboto Condensed';
+    text-align: center;
+    color: white;
+}
+
+.creative
+{
+    width: 574px;
+}
+
+.creative__finances
+{
+    width: 538px;
+}
+
+.text__alocate-creative
+{
+    width: 376px;
+    font: normal 500 48px /1.26 Montserrat;
+}
+
+.text__main-text-creative
+{
+    width: 574px;
+    color: rgba(0, 0, 0, 0.7);
+    font: normal 400 18px /1.35 'Roboto Condensed';
+}
+
+.when
+{
+    flex-direction: row-reverse;
+    width: 1135px;
+}
+
+.when__omg
+{
+    width: 504px;
+}
+
+.when__omg
+{
+    width: 504px;
+}
+
+.text__alocate-when
+{
+    width: 386px;
+    font: normal 500 48px /1.26 Montserrat;
+}
+
+.text__main-text-when
+{
+    width: 574px;
+    font: normal 400 18px /1.35 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.adventage
+{
+    width: 1135px;
+    height: 530px;
+}
+
+.adventage__text
+{
+    width: 553px;
+    text-align: center;
+    font: normal 500 48px /59px Montserrat;
+}
+
+.levels
+{
+    width: 1135px;
+    height: 411px;
+}
+
+.levels__first
+{
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 1134px;
+    height: 190px;
+}
+
+.levels__second
+{
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 1134px;
+    height: 190px;
+}
+
+.element
+{
+    width: 358px;
+    height: 190px;
+    background: #000000;
+    border-radius: 7.35723px;
+}
+
+.text
+{
+    font: normal 400 18px /21px 'Roboto Condensed';
+    color: white;
+}
+
+.one__img
+{
+    height: 49px;
+}
+
+.one__text
+{
+    width: 269.77px;
+}
+
+.two__img
+{
+    height: 49.5px;
+}
+
+.two__text
+{
+    width: 269.77px;
+}
+
+.three__img
+{
+    width: 46px;
+}
+
+.three__text
+{
+    width: 239.77px;
+}
+
+.four__img
+{
+    width: 41px;
+}
+
+.four__text
+{
+    width: 255.77px;
+}
+
+.five__img
+{
+    width: 51.46px;
+}
+
+.five__text
+{
+    width: 210.77px;
+}
+
+.six__img
+{
+    width: 36.5px;
+}
+
+.six__text
+{
+    width: 286px;
+}
+
+.finish
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 108px;
+    background: #000;
+}
+
+.finish__text
+{
+    font: normal 700 30.84px /1.22 Montserrat;
+    letter-spacing: -0.045em;
+    color: white;
+}

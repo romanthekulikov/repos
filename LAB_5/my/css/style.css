@@ -1,0 +1,89 @@
+.positive-traits
+{
+    height: 533px;
+    background-color: #063E30 ;
+    background-image: url('images/back.jpg');
+}
+
+.navigation__text
+{
+    font: normal 400 24px /1.2 Montserrat;
+    color: #000;
+}
+
+.head-logo
+{
+    font: normal 400 72px /1.2 Lobster;
+    color: #000;
+}
+
+
+.navigation__allocate
+{   
+    font: normal 400 36px /1.2 Lobster;
+    color: #000;
+}
+
+.inviting__head
+{
+    font: normal 400 72px /1.2 Lobster;
+    color: #000;
+}
+
+.inviting__text
+{
+    font: normal 400 36px /1.2 Montserrat;
+    color: #000;
+}
+.inviting__button
+{
+    color: #fff;
+    background: #040700;
+    border-radius: 10px;
+}
+
+.green-piano
+{
+    width: 751px;
+}
+
+.main-information__dont-worry
+{
+    font: normal 400 72px /1.2 Lobster;
+    color: #000;
+}
+
+.main-information__text
+{
+    font: normal 400 36px /1.2 Montserrat;
+}
+
+.main-information__button
+{
+    color: #fff;
+    background: #040700;
+    border-radius: 10px;
+}
+
+.music-woman
+{
+    width: 713px;
+}
+
+.for-whom__for-you
+{
+    font: normal 400 72px /1.2 Lobster;
+    color: #000;
+}
+
+.for-whom__condition
+{
+    font: normal 400 48px /1.2 Montserrat;
+    color: #000;
+}
+
+.for-whom__criteria
+{
+    font: normal 400 36px /1.2 Montserrat;
+}
+

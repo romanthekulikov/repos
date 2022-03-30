@@ -1,0 +1,32 @@
+.levels
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 1134px;
+    height: 190px;
+    left: 0.63px;
+    top: 0.23px;
+}
+
+.levels__level
+{
+    position: static;
+    width: 358px;
+    height: 190px;
+    left: 776px;
+    top: 0px;
+
+    background: #000000;
+    border-radius: 7.35723px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 30px 0px 0px;
+}
